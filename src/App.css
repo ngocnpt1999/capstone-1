@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#contentText {
+  min-height: 465px;
+  overflow: hidden;
+  display: block;
+}
+
+.display-line-break {
+  white-space: pre-line;
 }
