@@ -1,0 +1,9 @@
+#contentText {
+  min-height: 465px;
+  overflow: hidden;
+  display: block;
+}
+
+.display-line-break {
+  white-space: pre-line;
+}
