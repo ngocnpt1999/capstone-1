@@ -39,8 +39,7 @@ function Login() {
                     </form>
                 </div>
                 <div className='col-6'>
-                    <div style={{ background: '#f3f3f3' }}>
-                        <p>&nbsp;</p>
+                    <div className='ps-3' style={{ background: '#f3f3f3' }}>
                         <h2>Quên mật khẩu</h2>
                         <form id="formPasseOublier" className="form-horizontal">
                             <fieldset>
@@ -50,6 +49,7 @@ function Login() {
                                         <input type="email" name="email" className="form-control" id="loginInputForget" />
                                     </div>
                                 </div>
+                                <br></br>
                                 <div className="form-group">
                                     <div className="col-sm-offset-2 col-sm-10">
                                         <button type="submit" name="resetPassword" className='btn btn-danger'>Đặt lại mật khẩu</button>
